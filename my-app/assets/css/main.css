@@ -1638,6 +1638,43 @@ input, select, textarea {
 
 		}
 
+	/*PROJECT CARDS*/
+		.projectCard{
+			display:flex;
+			flex-flow:column;
+			align-items: center;
+			border:1px solid white;
+			border-radius: 5px;
+			padding: 3%;
+			box-shadow: 0px 2px 2px 3px white, 0px 2px 2px 3px white;
+		}
+		.projectCard p{
+			margin-bottom: 2%;
+		}
+		.projectCard a{
+			border:1px dotted lightblue;
+			border-radius: 3px;
+			width:100%;
+			padding:1%;
+			text-align: center;
+			transition: .2s ease-in-out;
+		}
+		.projectCard a:hover{
+			border: 1px dotted white;
+			transition: .2s ease-in-out;
+		}
+		.projectImg{
+			border-radius: 3px;
+			width:80%;
+			height:20vh;
+			margin:1%;
+			background-image: url('../../images/mtgCards.png');
+			background-size: 100%;
+		}
+		#hashTags{
+			color:lightblue;
+		}
+
 /* Footer */
 
 	#footer {
