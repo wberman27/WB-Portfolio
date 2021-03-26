@@ -1664,12 +1664,22 @@ input, select, textarea {
 			border: 1px dotted white;
 			transition: .2s ease-in-out;
 		}
-		.projectImg{
+		.projectMTGImg{
 			border-radius: 3px;
 			width:80%;
 			height:20vh;
+			background-repeat: no-repeat;
 			margin:1%;
 			background-image: url('../../images/mtgCards.png');
+			background-size: 100%;
+		}
+		.projectWATERImg{
+			border-radius: 3px;
+			width:80%;
+			height:20vh;
+			background-repeat: no-repeat;
+			margin:1%;
+			background-image: url('../../images/waterPlants.png');
 			background-size: 100%;
 		}
 		#hashTags{
