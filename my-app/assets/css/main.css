@@ -647,7 +647,6 @@ input, select, textarea {
 		.image:before {
 			pointer-events: none;
 			background-image: url("../../images/overlay.png");
-			background-color: rgba(19, 21, 25, 0.5);
 			border-radius: 4px;
 			content: '';
 			display: block;
@@ -717,7 +716,6 @@ input, select, textarea {
 		#meImg{
 			width:100%;
 			border-radius:60%;
-			border: 2px white solid;
 		}
 
 		@media screen and (max-width: 736px) {
@@ -1307,11 +1305,12 @@ input, select, textarea {
 			}
 
 		#header .logo {
-			width: 5.5rem;
-			height: 5.5rem;
+			width: 10.5rem;
+			height: 10.5rem;
 			line-height: 5.5rem;
-			border: solid 1px #ffffff;
+			border: solid 0px #ffffff;
 			border-radius: 100%;
+			box-shadow: 1px 1px 1px 1px white;
 		}
 
 			#header .logo .icon:before {
@@ -1648,21 +1647,23 @@ input, select, textarea {
 			border-radius: 5px;
 			padding: 3%;
 			box-shadow: 0px 2px 2px 3px white, 0px 2px 2px 3px white;
+			margin-bottom: 3%;
 		}
 		.projectCard p{
 			margin-bottom: 2%;
 		}
 		.projectCard a{
-			border:1px dotted lightblue;
+			background-image: linear-gradient(silver, lightblue);
+			color:black;
 			border-radius: 3px;
 			width:100%;
 			padding:1%;
 			text-align: center;
-			transition: .2s ease-in-out;
+			transition: .3s;
 		}
 		.projectCard a:hover{
-			border: 1px dotted white;
-			transition: .2s ease-in-out;
+			background-image: linear-gradient(lightblue, silver);
+			transition: .3s;
 		}
 		.projectMTGImg{
 			border-radius: 3px;
