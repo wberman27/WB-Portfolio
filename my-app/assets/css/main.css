@@ -700,6 +700,7 @@ input, select, textarea {
 			width: 100%;
 			justify-content: center;
 			align-items: center;
+			margin-bottom: 1.5%;
 		}
 
 			.image.main img {
@@ -1673,6 +1674,17 @@ input, select, textarea {
 		}
 		#hashTags{
 			color:lightblue;
+		}
+		.introTxt{
+			display: flex;
+			flex-flow: column;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+		}
+		.introTxt h2{
+			color:lightblue;
+			text-transform: none;
 		}
 
 /* Footer */
