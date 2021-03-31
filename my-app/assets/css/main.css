@@ -1675,9 +1675,6 @@ input, select, textarea {
 			box-shadow: 0px 1px 2px 2px lightblue, 0px 1px 2px 2px lightblue;
 			margin-bottom: 3%;
 		}
-		.projectCard p{
-			margin-bottom: 2%;
-		}
 		.projectCard a{
 			background-image: linear-gradient(white, lightblue);
 			color:black;
@@ -1686,29 +1683,25 @@ input, select, textarea {
 			padding:1%;
 			text-align: center;
 			transition: .3s;
+			margin-bottom: 2%;
 		}
 		.projectCard a:hover{
 			background-image: linear-gradient(white, white);
 			transition: .3s;
 		}
-		.projectMTGImg{
-			border-radius: 3px;
+		.projectImgContainer{
+			display:flex;
 			width:80%;
-			height:20vh;
-			background-repeat: no-repeat;
-			margin:1%;
-			background-image: url('../../images/mtgCards.png');
-			background-size: 100%;
+			height: 20vh;
+			margin-bottom:2%;
 		}
-		.projectWATERImg{
-			border-radius: 3px;
-			width:80%;
-			height:20vh;
-			background-repeat: no-repeat;
-			margin:1%;
-			background-image: url('../../images/waterPlants.png');
-			background-size: 100%;
+		.projectImg{
+			width:100%;
+			height:100%;
+			object-fit: cover;
+			object-position: top;
 		}
+
 		#hashTags{
 			color:lightblue;
 		}
