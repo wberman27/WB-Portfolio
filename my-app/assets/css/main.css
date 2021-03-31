@@ -1689,6 +1689,7 @@ input, select, textarea {
 			background-image: linear-gradient(white, white);
 			transition: .3s;
 		}
+
 		.projectImgContainer{
 			display:flex;
 			width:80%;
@@ -1718,6 +1719,11 @@ input, select, textarea {
 		.introTxt h2{
 			color:lightblue;
 			text-transform: none;
+		}
+		@media (max-height:500px){
+			.projectCard a{
+				width:30%;
+			}
 		}
 
 /* Footer */
