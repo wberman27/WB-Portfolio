@@ -1670,26 +1670,25 @@ input, select, textarea {
 			display:flex;
 			flex-flow:column;
 			align-items: center;
-			border:1px solid white;
 			border-radius: 5px;
 			padding: 3%;
-			box-shadow: 0px 2px 2px 3px white, 0px 2px 2px 3px white;
+			box-shadow: 0px 1px 2px 2px lightblue, 0px 1px 2px 2px lightblue;
 			margin-bottom: 3%;
 		}
 		.projectCard p{
 			margin-bottom: 2%;
 		}
 		.projectCard a{
-			background-image: linear-gradient(silver, lightblue);
+			background-image: linear-gradient(white, lightblue);
 			color:black;
 			border-radius: 3px;
-			width:100%;
+			width:20%;
 			padding:1%;
 			text-align: center;
 			transition: .3s;
 		}
 		.projectCard a:hover{
-			background-image: linear-gradient(lightblue, silver);
+			background-image: linear-gradient(white, white);
 			transition: .3s;
 		}
 		.projectMTGImg{
