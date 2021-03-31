@@ -1720,9 +1720,9 @@ input, select, textarea {
 			color:lightblue;
 			text-transform: none;
 		}
-		@media (max-height:500px){
+		@media (max-height:700px){
 			.projectCard a{
-				width:30%;
+				width:25%;
 			}
 		}
 
