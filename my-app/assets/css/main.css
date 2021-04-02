@@ -1723,7 +1723,7 @@ input, select, textarea {
 			color:lightblue;
 			text-transform: none;
 		}
-		@media screen and (max-width: 736px){
+		@media screen and (max-width: 1500px){
 			.projectCard a{
 				width:25%;
 			}
