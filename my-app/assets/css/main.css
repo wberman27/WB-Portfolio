@@ -935,7 +935,7 @@ input, select, textarea {
 	width:100%;
 }
 .myButton{
-	width:35%;
+	width:45%;
 	font-size: .4em;
 }
 .twitImg img{
@@ -1682,7 +1682,7 @@ input, select, textarea {
 			background-image: linear-gradient(white, lightblue);
 			color:black;
 			border-radius: 3px;
-			width:20%;
+			width:25%;
 			padding:1%;
 			text-align: center;
 			transition: .3s;
@@ -1722,14 +1722,6 @@ input, select, textarea {
 		.introTxt h2{
 			color:lightblue;
 			text-transform: none;
-		}
-		@media screen and (max-width: 1500px){
-			.projectCard a{
-				width:25%;
-			}
-			.myButton{
-				width:45%;
-			}
 		}
 
 /* Footer */
